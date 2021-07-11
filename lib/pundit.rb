@@ -168,8 +168,6 @@ module Pundit
     end
   end
 
-  protected
-
   # @return [Boolean] whether authorization has been performed, i.e. whether
   #                   one {#authorize} or {#skip_authorization} has been called
   def pundit_policy_authorized?
